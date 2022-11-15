@@ -13,12 +13,18 @@ struct anim: View {
     var body: some View {
         VStack {
             if show {
-                Image("ダダダダ天使")
-                    .transition(.opacity)
+                VStack{
+                    Image("dragon")
+                        .resizable()
+                        .scaledToFit()
+                        .transition(.opacity)
+                    Image("magic")
+                        .resizable()
+                        .scaledToFit()
+                        .transition(.opacity)
+                }
             }
-            let url = URL(string: "https://www.youtube.com/82ce5d0f-d513-4a6b-b22d-d01137466ae8")!
-            VideoPlayer(player: AVPlayer(url: url))
-        }
+        }.background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue/*@END_MENU_TOKEN@*/)
         .onAppear {
             withAnimation(.easeInOut(duration: 2)){
                 show = true

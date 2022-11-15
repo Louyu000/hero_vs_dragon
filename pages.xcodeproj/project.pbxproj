@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4300AAA92907ACB900962437 /* ChenYuluoyan-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4300AAA82907ACB900962437 /* ChenYuluoyan-Thin.ttf */; };
 		490DB4C128F6A3BB001243AD /* dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490DB4C028F6A3BB001243AD /* dice.swift */; };
-		490DB4C428F6B18F001243AD /* anim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490DB4C328F6B18F001243AD /* anim.swift */; };
-		491D0BBC28ED631B00FBF8E8 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D0BBB28ED631B00FBF8E8 /* Song.swift */; };
-		491D0BBF28ED653400FBF8E8 /* SongRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D0BBE28ED653400FBF8E8 /* SongRow.swift */; };
-		491D0BC328ED669600FBF8E8 /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D0BC228ED669600FBF8E8 /* SongList.swift */; };
-		491D0BC628ED71DF00FBF8E8 /* SongDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D0BC528ED71DF00FBF8E8 /* SongDetail.swift */; };
 		4966830628ED59D700707572 /* pagesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966830528ED59D700707572 /* pagesApp.swift */; };
 		4966830828ED59D700707572 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966830728ED59D700707572 /* ContentView.swift */; };
 		4966830A28ED59E000707572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4966830928ED59E000707572 /* Assets.xcassets */; };
 		4966830D28ED59E000707572 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4966830C28ED59E000707572 /* Preview Assets.xcassets */; };
+		551D6E9A29123DA100999C3A /* bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D6E9929123DA100999C3A /* bind.swift */; };
+		55ACF35A292372D3002B04A6 /* result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ACF359292372D3002B04A6 /* result.swift */; };
+		55BBCFC7292328E500F99EA7 /* anim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBCFC6292328E500F99EA7 /* anim.swift */; };
+		55BBCFCA29233E8500F99EA7 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBCFC929233E8500F99EA7 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4300AAA82907ACB900962437 /* ChenYuluoyan-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChenYuluoyan-Thin.ttf"; sourceTree = "<group>"; };
 		490DB4C028F6A3BB001243AD /* dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dice.swift; sourceTree = "<group>"; };
-		490DB4C328F6B18F001243AD /* anim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anim.swift; sourceTree = "<group>"; };
-		491D0BBB28ED631B00FBF8E8 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
-		491D0BBE28ED653400FBF8E8 /* SongRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRow.swift; sourceTree = "<group>"; };
-		491D0BC228ED669600FBF8E8 /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
-		491D0BC528ED71DF00FBF8E8 /* SongDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetail.swift; sourceTree = "<group>"; };
 		4966830228ED59D700707572 /* pages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4966830528ED59D700707572 /* pagesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pagesApp.swift; sourceTree = "<group>"; };
 		4966830728ED59D700707572 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4966830928ED59E000707572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4966830C28ED59E000707572 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4966830E28ED59E000707572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		551D6E9929123DA100999C3A /* bind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bind.swift; sourceTree = "<group>"; };
+		55ACF359292372D3002B04A6 /* result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = result.swift; sourceTree = "<group>"; };
+		55BBCFC6292328E500F99EA7 /* anim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = anim.swift; sourceTree = "<group>"; };
+		55BBCFC929233E8500F99EA7 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +64,14 @@
 		4966830428ED59D700707572 /* pages */ = {
 			isa = PBXGroup;
 			children = (
+				4300AAA82907ACB900962437 /* ChenYuluoyan-Thin.ttf */,
 				4966830528ED59D700707572 /* pagesApp.swift */,
-				491D0BBE28ED653400FBF8E8 /* SongRow.swift */,
-				491D0BC228ED669600FBF8E8 /* SongList.swift */,
-				491D0BC528ED71DF00FBF8E8 /* SongDetail.swift */,
-				491D0BBB28ED631B00FBF8E8 /* Song.swift */,
 				4966830728ED59D700707572 /* ContentView.swift */,
+				551D6E9929123DA100999C3A /* bind.swift */,
+				55BBCFC929233E8500F99EA7 /* Game.swift */,
+				55ACF359292372D3002B04A6 /* result.swift */,
 				490DB4C028F6A3BB001243AD /* dice.swift */,
-				490DB4C328F6B18F001243AD /* anim.swift */,
+				55BBCFC6292328E500F99EA7 /* anim.swift */,
 				4966830928ED59E000707572 /* Assets.xcassets */,
 				4966830E28ED59E000707572 /* Info.plist */,
 				4966830B28ED59E000707572 /* Preview Content */,
@@ -146,6 +146,7 @@
 			files = (
 				4966830D28ED59E000707572 /* Preview Assets.xcassets in Resources */,
 				4966830A28ED59E000707572 /* Assets.xcassets in Resources */,
+				4300AAA92907ACB900962437 /* ChenYuluoyan-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,14 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				491D0BC328ED669600FBF8E8 /* SongList.swift in Sources */,
-				491D0BC628ED71DF00FBF8E8 /* SongDetail.swift in Sources */,
-				490DB4C428F6B18F001243AD /* anim.swift in Sources */,
-				491D0BBC28ED631B00FBF8E8 /* Song.swift in Sources */,
 				4966830828ED59D700707572 /* ContentView.swift in Sources */,
+				55BBCFCA29233E8500F99EA7 /* Game.swift in Sources */,
 				490DB4C128F6A3BB001243AD /* dice.swift in Sources */,
-				491D0BBF28ED653400FBF8E8 /* SongRow.swift in Sources */,
+				55BBCFC7292328E500F99EA7 /* anim.swift in Sources */,
 				4966830628ED59D700707572 /* pagesApp.swift in Sources */,
+				55ACF35A292372D3002B04A6 /* result.swift in Sources */,
+				551D6E9A29123DA100999C3A /* bind.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

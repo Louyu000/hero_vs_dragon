@@ -85,5 +85,6 @@ struct dice: View {
 struct dice_Previews: PreviewProvider {
     static var previews: some View {
         dice()
+            .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
     }
 }

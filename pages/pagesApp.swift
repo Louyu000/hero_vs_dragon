@@ -11,7 +11,7 @@ import SwiftUI
 struct pagesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            bind()
         }
     }
 }

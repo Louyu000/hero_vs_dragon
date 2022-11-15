@@ -11,16 +11,10 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack{
-                NavigationLink(
-                    destination: SongList(),
-                    label: {
-                        Text("開始使用")
-                    })
-                
                 Text("Let's go")
                     .padding()
-                    .navigationTitle("音樂介紹")
-                Link(destination: URL(string: "https://lolesports.com/")!, label: {
+                    .navigationTitle("遊戲介紹")
+                Link(destination: URL(string: "https://shadowverse.com/cht/")!, label: {
                     /*@START_MENU_TOKEN@*/Text("Link")/*@END_MENU_TOKEN@*/
                 })
                 NavigationLink(
@@ -29,9 +23,9 @@ struct ContentView: View {
                         Text("DiceGame")
                     })
                 NavigationLink(
-                    destination: anim(),
+                    destination: bind(),
                     label: {
-                        Text("Anim")
+                        Text("Bind")
                     })
             }
         }
